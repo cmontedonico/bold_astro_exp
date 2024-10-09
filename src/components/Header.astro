@@ -1,0 +1,13 @@
+---
+import { Button } from '@/components/ui/button';
+import HeaderDropdown from './HeaderDropdown';
+---
+
+<header class="bg-white shadow-sm">
+  <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between">
+      <h1 class="text-lg font-semibold text-gray-900">Dashboard</h1>
+      <HeaderDropdown client:load />
+    </div>
+  </div>
+</header>
